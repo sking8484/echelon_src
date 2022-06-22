@@ -21,7 +21,7 @@ setup(
     long_description_content_type = "text/markdown",
     install_requires = [
         'pandas~=0.22.0',
-        'numpy~=1.18.2',
+        'numpy>=1.18.2,<1.23.0',
         'dash_html_components~=0.10.0',
         'statsmodels~=0.9.0',
         'dash~=0.21.0',
