@@ -24,7 +24,7 @@ setup(
         'numpy~=1.18.2',
         'dash_html_components~=0.10.0',
         'statsmodels~=0.9.0',
-        'dash~=0.21.0',
+        'dash>=0.21,<2.16',
         'plotly~=2.5.1',
         'dash_core_components~=0.22.1',
         'matplotlib~=2.2.2',
