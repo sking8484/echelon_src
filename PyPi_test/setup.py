@@ -26,7 +26,7 @@ setup(
         'statsmodels~=0.9.0',
         'dash~=0.21.0',
         'plotly~=2.5.1',
-        'dash_core_components~=0.22.1',
+        'dash_core_components>=0.22.1,<2.1.0',
         'matplotlib~=2.2.2',
         'seaborn~=0.8.1',
 
