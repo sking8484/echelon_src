@@ -22,7 +22,7 @@ setup(
     install_requires = [
         'pandas~=0.22.0',
         'numpy~=1.18.2',
-        'dash_html_components~=0.10.0',
+        'dash_html_components>=0.10,<2.1',
         'statsmodels~=0.9.0',
         'dash~=0.21.0',
         'plotly~=2.5.1',
